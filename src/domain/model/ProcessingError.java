@@ -1,4 +1,6 @@
 package domain.model;
 
-public class ProcessingError {
-}
+public record ProcessingError (
+		Long transactionId,
+		String reason
+) {}
