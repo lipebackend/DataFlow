@@ -7,5 +7,4 @@ import java.util.List;
 
 public interface TransactionProcessor {
     ProcessingResult process(List<Transaction> transactions);
-
 }
